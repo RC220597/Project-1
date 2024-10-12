@@ -31,6 +31,9 @@ header a {
 
 h1 {
     font-family: 'Bebas Nue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
 }
 
 main {
