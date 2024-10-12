@@ -24,6 +24,15 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Bebas Nue', sans-serif;
+}
+
 main {
     background-color: rgb(152, 170, 79);
     flex: 1 0 auto;
