@@ -81,9 +81,36 @@ nav {
 main {
     background-color: rgb(152, 170, 79);
     flex: 1 0 auto;
-    margin-top: 38px;
+    margin-top: 74px;
 }
 
 footer {
     background-color: green;
+}
+
+/*media query for larger screens (768px and up)*/
+@media screen and (min-width: 768px){
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-dropdown-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 43px;
+    }
 }
