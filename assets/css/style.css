@@ -36,6 +36,20 @@ h1 {
     color: #000000;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 main {
     background-color: rgb(152, 170, 79);
     flex: 1 0 auto;
