@@ -90,6 +90,21 @@ footer {
     background-color: green;
 }
 
+#social-networks{
+    text-align: left;
+    padding: 20px;
+    justify-content: space-between;
+    display: inline-flex;
+    letter-spacing: 20px;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+    color:#3a3a3a
+}
+
 /*media query for larger screens (768px and up)*/
 @media screen and (min-width: 768px) {
     nav {
