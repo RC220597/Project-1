@@ -25,7 +25,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-size: 80%;
 }
 
 header a {
@@ -82,6 +81,7 @@ nav {
 main {
     background-color: rgb(152, 170, 79);
     flex: 1 0 auto;
+    margin-top: 38px;
 }
 
 footer {
