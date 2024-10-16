@@ -81,16 +81,24 @@ nav {
 }
 
 main {
-    background-color: rgb(152, 170, 79);
     flex: 1 0 auto;
     margin-top: 74px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#hero {
+    height: 480px;
+    width: 100%;
+    background: url(../images/WW2Background.webp) no-repeat center center/cover;
 }
 
 footer {
     background-color: green;
 }
 
-#social-networks{
+#social-networks {
     text-align: left;
     padding: 20px;
     justify-content: space-between;
@@ -102,7 +110,7 @@ footer {
 #social-networks i {
     font-size: 150%;
     padding: 5%;
-    color:#3a3a3a
+    color: #3a3a3a
 }
 
 /*media query for larger screens (768px and up)*/
@@ -131,9 +139,9 @@ footer {
         margin-top: 43px;
     }
 }
-
+/* Media query for laptops and larger screens */
 @media screen and (min-width: 992px) {
-    #menu>a:hover {
+    #menu a:hover {
         border-bottom: 1px solid #000000;
     }
 }
