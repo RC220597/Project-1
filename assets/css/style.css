@@ -88,7 +88,7 @@ main {
     left: 0;
 }
 
-#hero {
+#background-image {
     height: 480px;
     width: 100%;
     background: url(../images/WW2Background.webp) no-repeat center center/cover;
