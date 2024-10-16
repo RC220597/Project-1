@@ -97,12 +97,21 @@ main {
 /*intro section*/
 
 #intro {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+#axis {
+    margin-bottom: 50px;
+}
+
+#allies {
+    margin-bottom: 50px;
 }
 
 #instructions {
     margin-bottom: 70px;
-    padding-top: 20px;
+    padding: 0 10px;
 }
 
 
