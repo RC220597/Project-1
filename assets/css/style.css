@@ -28,16 +28,16 @@ header {
     align-items: baseline;
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-h1 {
+h1, h2 {
     font-family: 'Bebas Nue', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000000;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #menu {
@@ -89,10 +89,23 @@ main {
 }
 
 #background-image {
-    height: 480px;
+    height: 625px;
     width: 100%;
     background: url(../images/WW2Background.webp) no-repeat center center/cover;
 }
+
+/*intro section*/
+
+#intro {
+    margin-bottom: 70px;
+}
+
+#instructions {
+    margin-bottom: 70px;
+    padding-top: 20px;
+}
+
+
 
 footer {
     background-color: green;
@@ -137,6 +150,10 @@ footer {
 
     main {
         margin-top: 43px;
+    }
+
+    #background-image {
+        height: 660px;
     }
 }
 /* Media query for laptops and larger screens */
