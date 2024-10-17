@@ -100,9 +100,18 @@ main {
     margin-bottom: 50px;
     padding: 0 10px;
 }
-
+/*Axis div and image*/
 #axis {
     margin-bottom: 50px;
+}
+
+#axis-image {
+    background: url(../images/axis-image.webp) no-repeat top center / cover;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 275px;
+    bottom: 20px;
 }
 
 #allies {
