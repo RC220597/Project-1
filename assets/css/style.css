@@ -94,11 +94,20 @@ main {
     background: url(../images/WW2Background.webp) no-repeat center center/cover;
 }
 
-/*intro section*/
+/*intro section and image*/
 
 #intro {
     margin-bottom: 50px;
     padding: 0 10px;
+}
+
+#timeline-image {
+    background: url(../images/Timeline.png) no-repeat top center / cover;
+    width: 90vw;
+    height: 32vw;
+    position: relative;
+    margin: auto;
+    bottom: 20px;
 }
 /*Axis div and image*/
 #axis {
@@ -110,12 +119,22 @@ main {
     height: 100px;
     width: 100px;
     position: relative;
-    left: 275px;
+    margin: auto;
     bottom: 20px;
 }
 
+/*Allies div and image*/
 #allies {
     margin-bottom: 50px;
+}
+
+#allies-image {
+    background: url(../images/allied-image.webp) no-repeat top center / cover;
+    width: 40vh;
+    height: 30vh;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
 }
 
 #instructions {
