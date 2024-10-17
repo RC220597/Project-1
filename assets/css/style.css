@@ -97,6 +97,10 @@ main {
     background: url(../images/WW2Background.webp) no-repeat center center/cover;
 }
 
+#description h2{
+    text-decoration: underline;
+}
+
 #description div {
     flex: auto;
 }
@@ -152,7 +156,6 @@ main {
 
 #key-points h2 {
     text-align: center;
-    text-decoration: underline;
 }
 
 /*Significant Events Section*/
@@ -175,7 +178,6 @@ main {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .5);
     padding: 15px;
-    margin-bottom: 20px;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
@@ -186,6 +188,16 @@ main {
     text-decoration: underline;
 }
 
+/*Instructions section*/
+
+#instructions h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#learn p {
+    text-align: center;
+}
 footer {
     background-color: green;
 }
