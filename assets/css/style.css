@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: cadetblue;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -59,7 +59,7 @@ header a {
 /* nav bar styles and dropdown toggle */
 nav {
     position: absolute;
-    background-color: green;
+    background-color: cadetblue;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -199,7 +199,7 @@ main {
     text-align: center;
 }
 footer {
-    background-color: green;
+    background-color: cadetblue;
 }
 
 #social-networks {
@@ -214,7 +214,7 @@ footer {
 #social-networks i {
     font-size: 150%;
     padding: 5%;
-    color: #3a3a3a
+    color: #fafafa;
 }
 
 /*media query for larger screens (768px and up)*/
