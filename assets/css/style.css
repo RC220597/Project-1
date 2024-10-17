@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-    font-family: 'Prompt''sans-serif';
+    font-family: 'Prompt' 'sans-serif';
 }
 
 header {
@@ -28,10 +28,12 @@ header {
     align-items: baseline;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Bebas Nue', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
     color: #000000;
 }
 
@@ -91,7 +93,12 @@ main {
 #background-image {
     height: 625px;
     width: 100%;
+    margin-bottom: 10px;
     background: url(../images/WW2Background.webp) no-repeat center center/cover;
+}
+
+#description div {
+    flex: auto;
 }
 
 /*intro section and image*/
@@ -109,6 +116,7 @@ main {
     margin: auto;
     bottom: 20px;
 }
+
 /*Axis div and image*/
 #axis {
     margin-bottom: 50px;
@@ -142,17 +150,51 @@ main {
     padding: 0 10px;
 }
 
+#key-points h2 {
+    text-align: center;
+    text-decoration: underline;
+}
 
+/*Significant Events Section*/
+
+#significant {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+#key-points {
+    background: url(../images/WW2Background2.jpg) no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#key-points div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#key-points h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
 
 footer {
     background-color: green;
 }
 
 #social-networks {
-    text-align: left;
-    padding: 20px;
+    text-align: center;
+    padding: 15px 10px;
     justify-content: space-between;
-    display: inline-flex;
+    display: flex;
     letter-spacing: 20px;
     list-style-type: none;
 }
@@ -193,6 +235,7 @@ footer {
         height: 660px;
     }
 }
+
 /* Media query for laptops and larger screens */
 @media screen and (min-width: 992px) {
     #menu a:hover {
