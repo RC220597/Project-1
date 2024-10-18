@@ -202,10 +202,24 @@ main {
 /*Gallery Page*/
 #gallery {
     text-align: center;
+    margin-bottom: 65px;
 }
 
 #gallery h2 {
     text-decoration: underline;
+}
+/*Video 1 styling*/
+#video-1 {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    max-width: 760px;
+}
+/*Video-2 styling*/
+#video-2 {
+    width: 100%;
+    padding: 20px;
+    max-width: 760px;
 }
 
 /* Footer */
