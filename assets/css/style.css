@@ -221,6 +221,10 @@ main {
     max-width: 760px;
 }
 /*photo styling*/
+#photos {
+    line-height: 0;
+    margin-bottom: 45px;
+}
 #photos img{
     width: 100%;
 }
@@ -286,5 +290,10 @@ footer {
 #videos {
     column-count: 2;
     display: flex;
+}
+/*photo responsivness*/
+#photos {
+    column-count: 2;
+    column-gap: 0;
 }
 }
