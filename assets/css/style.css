@@ -213,6 +213,10 @@ main {
     text-decoration: underline;
 }
 
+#vids {
+    display: none;
+}
+
 /*Video 1 styling*/
 #video-1 {
     width: 100%;
