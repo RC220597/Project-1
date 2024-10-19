@@ -49,3 +49,16 @@ __The Gallery__
 - embeded videos for the user to watch to educate themselves further
 
 <img width="946" alt="gallery" src="https://github.com/user-attachments/assets/3de89176-fae2-4ec2-8a5d-8f808aa99b6c">
+
+__Contact Us Page__
+
+- A page dedicated to questions asked by the user, giving them a form to submit any questions or enquiries they may have directly to us.
+- Ensures the ability to get user feedback allowing us to help them to a more accurate degree of their needs as well as the ability to review FAQ's and improve the site with this information.
+
+  <img width="945" alt="contact" src="https://github.com/user-attachments/assets/efcdefd2-a832-48a7-ba11-bc56265f0ed9">
+
+  ## Testing ##
+
+  __HTML Testing__
+
+  - Upon completion and running my source code through the HTML Validator I found two errors present which were directed towards the <iframe> property of my embedded videos
