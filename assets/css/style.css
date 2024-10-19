@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-    font-family: 'Prompt' 'sans-serif';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -107,6 +107,10 @@ main {
 
 #description div {
     flex: auto;
+}
+
+#description p {
+    text-align: center;
 }
 
 /*intro section and image*/
