@@ -97,6 +97,10 @@ main {
     background: url(../images/WW2Background.webp) no-repeat center center/cover;
 }
 
+#background-image h2 {
+    display: none;
+}
+
 #description h2 {
     text-decoration: underline;
 }
