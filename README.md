@@ -61,4 +61,38 @@ __Contact Us Page__
 
   __HTML Testing__
 
-  - Upon completion and running my source code through the HTML Validator I found two errors present which were directed towards the <iframe> property of my embedded videos
+  - Upon completion and running my source code through the HTML Validator I found two errors present which were directed towards the <iframe> property of my embedded videos on the gallery.html, the error was present due to these tages having a frameborder attribute which was obsolete. After discovering this error I edited the gallery.html, re ran the source code for all HTML files through the validator and recieved a pass with no errors present.
+ 
+  <img width="943" alt="gallery-test" src="https://github.com/user-attachments/assets/550da073-3fa6-4c1e-8286-20a9bcf30448">
+
+__CSS Testing__
+
+- Upon completion I theb tested my CSS source code through the validator and found no issues present.
+
+![CSS-testing](https://github.com/user-attachments/assets/facff2c0-8693-4f46-946b-ffcb6052a0fb)
+
+## Deployment ##
+
+This site was deployed using GitHub, to do so I simply performed the following steps:
+
+- Pushed my finish project to my GitHub repository.
+- access the repository settings and navigate down to the "pages" section.
+- Under the "Source" select "Master Branch" and the root folder
+- after following these steps, click save and let it refresh and the site will soon be published.
+
+This can be accessed at - https://rc220597.github.io/Project-1/
+
+## Credits ##
+
+__Content__
+
+- The text content throughout the website informing the user of history around the war was all taken from Wikipedia and my own knowledge of these events.
+  https://en.wikipedia.org/wiki/World_War_II
+- The Icons in the footer were provided by Font Awesome.
+
+__Media__
+
+- All images used throughout the website were from google images
+- The Videos embedded within the gallery page were both from Youtube
+  video 1 - https://www.youtube.com/watch?v=d2uyH6cMNb4
+  video 2 - https://www.youtube.com/watch?v=_uk_6vfqwTA
