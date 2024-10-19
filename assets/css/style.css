@@ -228,7 +228,24 @@ main {
 #photos img{
     width: 100%;
 }
+/*contact page*/
+#contact-us {
+    background-image: url(../images/contact-background.jpg);
+    background-size: cover;
+    height: 90vh;
+    color: #fafafa;
+}
+#contact h2 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px;
+}
 
+#contact p {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .5);
+}
 /* Footer */
 footer {
     background-color: cadetblue;
